@@ -1,0 +1,21 @@
+<FileLoader>:
+    orientation: 'vertical'
+
+    FileChooserListView:
+        id: filechooser
+        filters: ['*.png', '*.jpg', '*.jpeg', '*.bmp', '*.gif']
+        size_hint: (1, 0.8)
+
+    Label:
+        id: label
+        text: "Select an image"
+        size_hint: (1, 0.1)
+
+    Button:
+        text: "Upload Image"
+        size_hint: (1, 0.1)
+        on_press: root.upload_file()
+
+    BoxLayout:
+        id: image_container
+        orientation: 'vertical'
