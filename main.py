@@ -1,12 +1,8 @@
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.lang import Builder
-import shutil
-import os
 from kivy.uix.image import Image
 from molov import detect_objects
-import cv2
-
 
 Builder.load_file("myapp.kv")
 
@@ -44,3 +40,4 @@ class FileUploadApp(App):
 
 if __name__ == '__main__':
     FileUploadApp().run()
+
