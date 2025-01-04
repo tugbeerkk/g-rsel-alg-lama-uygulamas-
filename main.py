@@ -4,7 +4,6 @@ from kivy.lang import Builder
 import shutil
 import os
 from kivy.uix.image import Image
-from model import decect_bird
 from molov import detect_objects
 import cv2
 
