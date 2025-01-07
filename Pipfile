@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+kivy = "*"
+buildozer = "*"
+keras = "*"
+tensorflow = "==2.14.0"
+pillow = "*"
+numpy = "<2"
+imageai = "*"
+opencv-python = "*"
+torchvision = "*"
+torch = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
